@@ -165,7 +165,6 @@ h2 {
 }
 
 .strong-sides-item-team {
-
     text-align: center;
 }
 
@@ -206,6 +205,24 @@ h2 {
     width: 80px;
     margin: 5%;
 }
+
+/* HOBBIES */
+.hobby-icon {
+    width: 90%;
+   
+}
+
+.hobby-description {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.hobby-item-center {
+    text-align: center;
+}
+
 
 /* rectangles */
 .req {
