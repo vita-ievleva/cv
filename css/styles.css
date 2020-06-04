@@ -7,6 +7,7 @@
 body {
     background-color: var(--main-bg-color);
     font-family: var(--main-font-family);
+    min-width: 385px;
 }
 
 main {
@@ -56,24 +57,27 @@ h2 {
 }
 
 .work-position {
-    font-size: 1.2rem;
+    font-size: inherit;
     font-weight: bold;
 }
 
 .cuanto {
+   
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .work-date-range {
     padding: 0;
+    font-size: 1.5rem;
 }
 
 .work-description {
     margin: 3% 0;
     border-block-end: solid 5px #d9d9d9;
+    
 }
 
 
@@ -91,9 +95,10 @@ h2 {
 }
 
 .education-time-range {
-    padding: 0 10%;
+    padding: 10% 2%;
     font-weight: bold;
     display: block;
+    font-size: 1.5rem;
 }
 
 .certificate-link {
@@ -109,6 +114,7 @@ h2 {
 /* language */
 .language-skill-description {
     font-size: 2rem;
+    margin: auto;
 }
 
 .language-icon {
@@ -365,7 +371,9 @@ h2 {
 
     .education-description,
     .work-description,
-    .strong-sides-description {
+    .strong-sides-description,
+    .cuanto, .work-date-range
+     {
         font-size: 1.2rem;
     }
 
@@ -394,8 +402,10 @@ h2 {
 
     .education-description,
     .work-description,
-    .strong-sides-description {
-        font-size: 1.5rem;
+    .strong-sides-description,
+    .hobby-description,
+    .work-date-range, .cuanto {
+        font-size: 1.6rem;
     }
 
     .strong-sides-icon {
