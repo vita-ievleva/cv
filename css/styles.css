@@ -7,7 +7,6 @@
 body {
     background-color: var(--main-bg-color);
     font-family: var(--main-font-family);
-    min-width: 550px;
 }
 
 main {
@@ -33,7 +32,6 @@ h2 {
 }
 
 /* HEADER */
-
 .h1-header-name {
     font-weight: bold;
     font-size: 4.2rem;
@@ -63,7 +61,6 @@ h2 {
 }
 
 .cuanto {
-
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
@@ -75,14 +72,14 @@ h2 {
 }
 
 .work-description {
-    padding: 0;
+    margin: 3% 0;
+    border-block-end: solid 5px #d9d9d9;
 }
 
 
 /* EDUCATION */
 .education-item {
     margin: 10% 0;
-
 }
 
 .education-icon {
@@ -99,25 +96,19 @@ h2 {
     display: block;
 }
 
-.certificate-link:hover {
-    text-decoration: none;
-}
-
 .certificate-link {
-    border: solid;
-    padding: 1.5%;
-    border-radius: 10px;
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .certificate-link:hover {
     color: rgb(119, 119, 119);
+    text-decoration: none;
 }
 
 /* SKILLS */
 [class^="skill-level-"] {
-    padding: 10px;
+    padding: 10px 10px 0 15px;
 }
 
 .skill-level-a-node {
@@ -195,10 +186,12 @@ h2 {
 }
 
 .hero-image {
-    width: 268px;
-    margin: 1% 1% 0 0;
+    width: 269px;
+    margin: 1px;
     display: block;
     filter: grayscale(100%);
+    border-radius: 5px 0 5px 0;
+    margin: 2px 0 0 0;
 }
 
 .contact-icon {
@@ -206,17 +199,16 @@ h2 {
     margin: 5%;
 }
 
+
 /* HOBBIES */
 .hobby-icon {
     width: 90%;
-   
 }
 
 .hobby-description {
     display: block;
     text-align: center;
     font-size: 1.5rem;
-    font-weight: 500;
 }
 
 .hobby-item-center {
@@ -239,6 +231,113 @@ h2 {
     border-radius: 15px;
     border: solid 5px black;
     margin-left: 15px;
+}
+
+@media only screen and (max-width: 550px) {
+    .arrow {
+        margin-top: 50px;
+    }
+
+    #skills [class^="col-"],
+    #strong-sides [class^="col-"],
+    #education [class^="col-"] {
+        padding: 2px;
+    }
+    #hobbies [class^="col-"] {
+        padding: 2px;
+
+    }
+    h2 {
+        font-size: 3rem;
+    }
+
+    .profile-info {
+        margin: 40px 40px;
+    }
+
+    .req-image {
+        width: 250px;
+        height: 243px;
+    }
+
+    .hero-image {
+        width: 219px;
+    }
+
+    .education-icon {
+        width: 90px;
+        margin-bottom: 15px;
+    }
+
+    .education-description {
+        padding: 0 10px;
+    }
+
+    .education-time-range {
+        padding: 0 0 0 5px;
+        font-size: 0.8rem;
+    }
+
+    .skill-level-java {
+        width: 180px;
+    }
+
+    .skill-level-a-node {
+        width: 160px;
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .skill-level-a {
+        width: 110px;
+    }
+
+    .skill-level-b {
+        width: 95px;
+    }
+
+    .skill-level-c {
+        width: 80px;
+    }
+
+    .skill-level-d {
+        width: 70px;
+    }
+
+    .skill-level-e {
+        width: 50px;
+    }
+
+    .skill-level-ex {
+        width: 150px;
+        padding-top: 40px;
+    }
+
+    .work-date-range {
+        font-size: 0.8rem;
+    }
+
+    .cuanto {
+        font-size: 1rem;
+    }
+
+    .hobby-description {
+        font-size: 1.08rem;
+    }
+
+    .strong-sides-icon {
+        width: 120px;
+    }
+
+    .strong-sides-icon-team {
+        width: 150px;
+    }
+
+    .strong-sides-description {
+        font-size: 1.08rem;
+        padding: 0 10px;
+    }
+
 }
 
 @media only screen and (min-width:768px) {
