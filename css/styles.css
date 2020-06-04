@@ -106,6 +106,20 @@ h2 {
     text-decoration: none;
 }
 
+/* language */
+.language-skill-description {
+    font-size: 2rem;
+}
+
+.language-icon {
+    margin-bottom: 5%;
+}
+
+.language-item {
+    margin: 15% 0;
+    text-align: center;
+}
+
 /* SKILLS */
 [class^="skill-level-"] {
     padding: 10px 10px 0 15px;
